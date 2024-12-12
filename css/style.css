@@ -1,0 +1,472 @@
+body {
+    margin: auto;
+    padding: auto;
+
+}
+
+.home {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imgs/Programming\ Wallpaper.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 742px;
+}
+
+
+.text-padding {
+    padding: 200px;
+}
+
+.button {
+    /* padding: 8px 16px;
+    border-radius: 4px; */
+    /* cursor: pointer; */
+    transition: all 0.2s;
+}
+
+/* Hover styles for button 1 */
+.button.s-btn-1:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+/* Hover styles for button 2 */
+.button.s-btn-2:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+
+
+
+
+
+.test3 {
+    position: relative;
+}
+
+.test3 img {
+    transition: all 2s 1s;
+
+}
+
+.test3:hover .content {
+    opacity: 1;
+    transform: rotate(360deg);
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 90px;
+    opacity: 0;
+    transition: all 1s;
+    text-align: center;
+
+}
+
+
+.w-10 {
+
+    width: 80px;
+}
+
+.bg-gray {
+    background-color: rgb(244, 244, 244);
+}
+
+
+.ch-1 {
+    position: relative;
+
+}
+
+
+.ch-1 img {
+    transition: all 0.2s 0.2s;
+
+}
+
+.ch-1:hover .ch-content {
+
+    opacity: 1;
+
+    transform: rotate(360deg);
+
+
+}
+
+.ch-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 95%;
+    height: 83%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    opacity: 0;
+    transition: all 1s;
+
+}
+
+.ch-1 {
+    transition: transform 0.3s ease-in;
+    /* Add transition for smooth animation */
+}
+
+.ch-1:hover img {
+    transform: scale(1.2);
+
+
+}
+
+
+.ch-content h1 {
+    background-color: lightblue;
+}
+
+.ch-content p {
+    padding: 10px;
+}
+
+
+
+
+.iconss {
+    padding-top: 190px;
+}
+
+
+.w-30 {
+
+    width: 40%;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+
+.copyRight {
+
+    height: 50px;
+}
+
+
+
+
+.icon-hover {
+    position: relative;
+    display: inline-block;
+}
+
+.icon-hover:hover .text-gray {
+    color: black !important;
+}
+
+.icon-hover:hover .text-hover {
+    color: white !important;
+}
+
+
+.icon-hover:hover .text-hover-black {
+    color: black !important;
+}
+
+.icon-hover:hover .text-hover-white {
+    color: white !important;
+}
+
+.navbar-fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-nav .nav-link.active,
+.nav-link:hover {
+    color: #e65f78;
+}
+
+.text-main {
+    color: #e65f78 !important;
+}
+
+.bg-main {
+    background-color: #e65f78 !important;
+}
+
+
+.home_layer h1::after {
+    content: " |";
+    animation: typing 4000ms linear 1s infinite alternate;
+}
+
+@keyframes typing {
+    3% {
+        content: " |";
+        /* 1 */
+    }
+
+    6% {
+        content: " a|";
+        /* 2 */
+    }
+
+    9% {
+        content: " a f|";
+        /* 3 */
+    }
+
+    12% {
+        content: " a fr|";
+        /* 4 */
+    }
+
+    15% {
+        content: " a fro|";
+        /* 5 */
+    }
+
+    18% {
+        content: " a fron|";
+        /* 6 */
+    }
+
+    21% {
+        content: " a front|";
+        /* 7 */
+    }
+
+    24% {
+        content: " a fronte|";
+        /* 8 */
+    }
+
+    27% {
+        content: " a fronten|";
+        /* 9 */
+    }
+
+    30% {
+        content: " a frontend|";
+        /* 10 */
+    }
+
+    33% {
+        content: " a frontend d|";
+        /* 11 */
+    }
+
+    36% {
+        content: " a frontend de|";
+        /* 12 */
+    }
+
+    39% {
+        content: " a frontend dev|";
+        /* 13 */
+    }
+
+    42% {
+        content: " a frontend devo|";
+        /* 14 */
+    }
+
+    45% {
+        content: " a frontend devol|";
+        /* 15 */
+    }
+
+    48% {
+        content: " a frontend devolp|";
+        /* 16 */
+    }
+
+    51% {
+        content: " a frontend devolpe|";
+        /* 17 */
+    }
+
+    54% {
+        content: " a frontend devolper|";
+        /* 18 */
+    }
+
+    57% {
+        content: "|";
+        /* 19 */
+    }
+
+    60% {
+        content: "A|";
+        /* 20 */
+    }
+
+    63% {
+        content: "Ah|";
+        /* 21 */
+    }
+
+    66% {
+        content: "Ahm|";
+        /* 22 */
+    }
+
+    69% {
+        content: "Ahme|";
+        /* 23 */
+    }
+
+    71% {
+        content: "Ahmed|";
+        /* 24 */
+    }
+
+    74% {
+        content: "Ahmed S|";
+        /* 25 */
+    }
+
+    77% {
+        content: "Ahmed Sa|";
+        /* 26 */
+    }
+
+    80% {
+        content: "Ahmed Sam|";
+        /* 27 */
+    }
+
+    83% {
+        content: "Ahmed Sami|";
+        /* 28 */
+    }
+
+    86% {
+        content: "Ahmed Samir|";
+        /* 29 */
+    }
+
+    89% {
+        content: "Ahmed Samir T|";
+        /* 30 */
+    }
+
+    92% {
+        content: "Ahmed Samir Ya|";
+        /* 31 */
+    }
+
+    94% {
+        content: "Ahmed Samir Yak|";
+        /* 32 */
+    }
+
+    96% {
+        content: "Ahmed Samir Yako|";
+        /* 33 */
+    }
+
+    98% {
+        content: "Ahmed Samir Yakou|";
+        /* 34 */
+    }
+
+    100% {
+        content: "Ahmed Samir Yakoub|";
+        /* 35 */
+    }
+}
+
+
+
+.nav-pills .nav-link {
+    color: black;
+    border-radius: 100px;
+
+}
+
+
+
+
+section.portfolio {
+    padding-block: var(--section-padding);
+}
+
+
+.font-famly{
+    font-family: var(--secondery-font-montserrat);
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: var(--dark-titles-color);
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+.right {
+    right: 30px;
+    top: 8px;
+}
+
+.icon-font {
+    font-size: 2cm;
+}
+
+
+.Html-icon-color {
+
+    color: #E34C26;
+    /* Main HTML5 orange color */
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    /* Optional shadow for depth */
+
+}
+
+.CSS-icon-color {
+    color: #264DE4;
+    /* Base blue color for CSS3 logo */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    /* Subtle shadow for depth */
+}
+
+
+.JS-icon-color {
+    color: #F7DF1E;
+    /* JavaScript yellow */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    /* Subtle shadow for depth */
+}
+
+.Bootstrap-icon-color {
+    color: #7952B3;
+    /* Bootstrap purple */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    /* Subtle shadow for depth */
+}
+/* 
+.text-transprant{
+    color: transparent;
+} */
+.text-gray {
+
+    color: rgb(236, 236, 236);
+    /*     color: transparent; */
+}
+
+
+.weather-font{
+
+    font-size: 4cm;
+    /* color: ; */
+}
+.img-height{
+    height: 300px;
+    object-fit: cover;
+
+}

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- bootstrab -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Icons -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- window Icon -->
+  <link rel="icon" href="imgs/myLogo.png" type="image/x-icon" />
+  <style>
+    .textColor {
+
+      color: black;
+    }
+
+    nav {
+      background: transparent;
+    }
+  </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+  <section class="home " id="Home">
+    <nav class="navbar navbar-expand-lg navbar-fixed ">
+      <div class="container ">
+        <a class="navbar-brand textColor" href="#"><img id="mylogoo" src="imgs/myLogo.png" class="w-10" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  justify-content-end" id="navbarNavDropdown">
+          <ul class="nav ">
+            <li class="nav-item ">
+              <a class="nav-link active textColor" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link textColor" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link textColor" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link textColor" href="#works">Works</a>
+            </li>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link textColor" href="#alert" id="contact">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div>
+      <div>
+        <div class="text-center text-white text-padding">
+
+          <h1 class="font-famly">Hello</h1>
+          <div class="home_layer">
+            <h1 class="fs-1 fw-bold py-2 ">I'M </h1>
+          </div>
+          <div class="social-icon">
+            <a href="https://www.facebook.com/profile.php?id=100003625806938" target="_blank"
+              class="text-decoration-none">
+              <span class="fa-stack" style="vertical-align: top;">
+                <i class="fa-solid fa-circle fa-stack-2x text-black-50"></i>
+                <i class="fa-brands fa-facebook-f text-white fa-stack-1x fa-inverse"></i>
+              </span>
+
+            </a>
+            <a href="https://x.com/ahmed28961420" target="_blank" class="text-decoration-none">
+              <span class="fa-stack" style="vertical-align: top;">
+                <i class="fa-solid fa-circle fa-stack-2x text-black-50"></i>
+                <i class="fa-brands fa-x-twitter text-white fa-stack-1x fa-inverse"></i>
+              </span>
+
+            </a>
+
+            <a href="https://www.linkedin.com/in/ahmed-samir-4b3600214/" target="_blank" class="text-decoration-none">
+              <span class="fa-stack" style="vertical-align: top;">
+                <i class="fa-solid fa-circle fa-stack-2x text-black-50"></i>
+                <i class="fa-brands fa-linkedin-in text-white fa-stack-1x fa-inverse"></i>
+              </span>
+
+            </a>
+
+
+            <a href="https://github.com/ahmedsamir1123" class="text-decoration-none" target="_blank">
+              <span class="fa-stack" style="vertical-align: top;">
+                <i class="fa-solid fa-circle fa-stack-2x text-black-50"></i>
+                <i class="fa-brands fa-github text-white fa-stack-1x fa-inverse"></i>
+            </a>
+
+
+
+          </div>
+
+
+        </div>
+      </div>
+
+  </section>
+  <section class="About pt-5" id="About">
+    <div class="pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 ">
+            <div class="h-75">
+              <img src="imgs/WhatsApp Image 2024-11-28 at 14.09.51_0bec8b1f.png" class="w-75 h-100" alt="">
+            </div>
+
+          </div>
+          <div class="col-md-6">
+            <h1 class="font-famly">About Me</h1>
+            <p>Front-end WEB DEVELOPER </p>
+            <p>Hello! My name is <span class="text-black-50 fw-bold">Ahmed Samir Yakoub</span>
+              , and I hold a Bachelor's degree in Computer Science. I am a dedicated and avid learner, always eager to
+              expand my knowledge and skills.
+
+              I have a deep passion for software development, especially in creating interactive and user-friendly web
+              interfaces. With a strong foundation in front-end technologies, I focus on building modern, responsive,
+              and accessible web applications that deliver exceptional user experiences.
+
+              Currently, I am looking forward to collaborating on exciting and challenging projects in the field of
+              software and web development. I am driven by the opportunity to learn from every project and contribute to
+              building innovative solutions that make an impact.
+
+              Let’s create something amazing together!
+
+              <br>
+            <div>
+              <a href="CV/AhmedSamir-resume.pdf" download="AhmedSamir-resume.pdf" target="_blank">
+                <button class="bg-black text-white s-btn-1 btn border border-1 border-black button">
+                  Download CV
+                </button>
+              </a>
+              <button class="bg-white text-black s-btn-2 btn border border-1 border-black button"
+                id="contactBtn">Contact
+                Me</button>
+            </div>
+
+
+            <div class="card-body alert  w-50 bg-black text-white position-relative m-2 d-none" id="alert">
+              <div class="right position-absolute">
+                <button class="btn btn-close btn-close-white right" id="closeElem"></button>
+              </div>
+              <div class="p-2 text-center">
+                <img src="imgs/IMG_6062.PNG" class="w-30" alt="">
+                <h5 class="card-title p-1 ">Contact</h5>
+                <p class="card-text">phone number : 01122711182 </p>
+
+                <p class="card-text"><span> email :</span> <a
+                    href="mailto:your_mail@gmail.com?Subject=Job offer">ahmed38251@outlook.com</a> </p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="Services bg-gray p-5" id="services">
+
+    <div class="services text-md-center " id="SERVICES">
+
+      <h1 class="font-famly">SERVICES</h1>
+
+      <div class="container p-4">
+        <div class="row g-3">
+          <div class="col-md-3">
+            <span class="fa-stack fa-2x icon-hover  text-center icon-font ">
+              <i class="fa-solid fa-circle fa-stack-2x text-gray"></i>
+              <i class="fa-brands fa-html5 h1 fa-stack-1x fa-inverse text-hover icon-font Html-icon-color"></i>
+
+
+            </span>
+
+          </div>
+
+          <div class="col-md-3">
+            <span class="fa-stack fa-2x icon-hover  text-center icon-font ">
+              <i class="fa-solid fa-circle fa-stack-2x text-gray "></i>
+              <i class="fa-brands fa-css3-alt h1 fa-stack-1x fa-inverse CSS-icon-color text-hover icon-font"></i>
+
+            </span>
+          </div>
+
+          <div class="col-md-3">
+            <span class="fa-stack fa-2x icon-hover  text-center icon-font ">
+              <i class="fa-solid fa-circle fa-stack-2x text-gray"></i>
+              <i class="fa-brands fa-js h1 fa-stack-1x fa-inverse JS-icon-color text-hover icon-font "></i>
+            </span>
+
+          </div>
+          <div class="col-md-3 ">
+            <span class="fa-stack fa-2x icon-hover  text-center icon-font ">
+              <i class="fa-solid fa-circle fa-stack-2x text-gray  "></i>
+              <i class="fa-brands fa-bootstrap h1 fa-stack-1x fa-inverse Bootstrap-icon-color text-hover icon-font"></i>
+
+            </span>
+
+
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+
+
+
+    </div>
+
+    </div>
+
+
+  </section>
+
+
+  <section class="portfolio  mt-4 " id="works">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex justify-content-center position-relative">
+            <h2 class="text-center mb-5 font-famly">My Work</h2>
+          </div>
+
+          <div class="tab-content" id="pills-tabContent" target="_blank">
+            <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-home-tab"
+              tabindex="0">
+              <div class="row g-4">
+                <div class="col-md-4 ">
+                  <div class="text-center ">
+                    <a href="https://ahmedsamir1123.github.io/whether-app/" class="text-decoration-none" target="_blank">
+                      <img src="imgs/Apple-Weather-app.png" alt="" class="w-75 img-height">
+                      <h2>Weather app </h2>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-md-4  ">
+                  <div class="text-center">
+                    <a href="https://ahmedsamir1123.github.io/bookMarker/" class="text-decoration-none" target="_blank">
+                      <img src="imgs/BookMarker.png" alt="" class="w-75 img-height">
+                      <h2>BookMarker App </h2>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4 ">
+                  <div class="text-center">
+                    <a href="https://ahmedsamir1123.github.io/To-Do-List/" class="text-decoration-none" target="_blank">
+                      <img src="imgs/todo_app_icon.png" alt="" class="w-75 img-height">
+                      <h2>TODO App </h2>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4 ">
+                  <div class="text-center">
+                    <a href="https://github.com/ahmedsamir1123/Write" class="text-decoration-none" target="_blank">
+                      <img src="imgs/report system.png" alt="" class="w-75 img-height">
+                      <h2>Report systtem </h2>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4 ">
+                  <div class="text-center">
+                    <a href="https://ahmedsamir1123.github.io/SmartLogin/" class="text-decoration-none" target="_blank">
+                      <img src="imgs/smart login.png" alt="" class="w-75 img-height">
+                      <h2>Smart Login app </h2>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4 ">
+                  <div class="text-center">
+                    <a href="https://ahmedsamir1123.github.io/quotes/" class="text-decoration-none" target="_blank">
+                      <img src="imgs/quotes app.png" alt="" class="w-75 img-height">
+                      <h2>Quotes app </h2>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+
+
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
+<!-- <div class="col-md-3">
+  <div class=" py-5 border border-3 shadow  text-center">
+    <span class="fa-stack fa-2x icon-hover">
+      <i class="fa-solid fa-circle fa-stack-2x text-gray"></i>
+      <i class="fa-brands fa-html5 h1 fa-stack-1x fa-inverse text-black text-hover "></i>
+
+
+    </span>
+    <h2>HTML 5</h2>
+
+    <p>modern web language with semantic tags, multimedia support, APIs, and
+      enhanced features for interactive, accessible web applications.
+    </p>
+  </div> -->
