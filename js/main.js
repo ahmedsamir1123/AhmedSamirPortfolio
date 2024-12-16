@@ -1,4 +1,9 @@
 
+let homeSection =document.querySelector("#Home")
+console.log(homeSection.offsetHeight);
+
+let homeSectionHeight =homeSection.offsetHeight
+
 document.getElementById("contactBtn").addEventListener("click", myCart)
 
 let mylogoo = document.querySelector("#mylogoo");
@@ -36,9 +41,10 @@ let imgPathBlack = mylogoo.getAttribute("src")
 
 let navbg = document.querySelector("nav")
 function updateTextColorOnScroll() {
+
     let imgPath = "imgs/myLogoBlack.png"
     // Check the vertical scroll position
-    if (window.scrollY > 690) { // Example threshold for scroll position
+    if (window.scrollY > homeSectionHeight) { // Example threshold for scroll position
         // navbg.style.background = "gray";
 
         for (var i = 0; i < textColor.length; i++) {
@@ -66,3 +72,5 @@ updateTextColorOnScroll();
 
 // Attach the function to the scroll event
 window.onscroll = updateTextColorOnScroll;
+
+
