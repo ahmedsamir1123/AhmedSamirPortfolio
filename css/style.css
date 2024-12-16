@@ -396,7 +396,7 @@ section.portfolio {
 }
 
 
-.font-famly{
+.font-famly {
     font-family: var(--secondery-font-montserrat);
     font-weight: 900;
     font-size: 2.5rem;
@@ -449,6 +449,7 @@ section.portfolio {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     /* Subtle shadow for depth */
 }
+
 /* 
 .text-transprant{
     color: transparent;
@@ -460,13 +461,26 @@ section.portfolio {
 }
 
 
-.weather-font{
+.weather-font {
 
     font-size: 4cm;
     /* color: ; */
 }
-.img-height{
+
+.img-height {
     height: 300px;
     object-fit: cover;
+
+}
+.alert{
+    width: 50%;
+}
+
+@media (max-width: 900px) {
+
+.alert{
+
+    width: 100%;
+}
 
 }
